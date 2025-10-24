@@ -6,15 +6,15 @@ A powerful Windows desktop application to control access to WhatsApp Desktop and
 
 <div align="center">
   <img src="Images/app_1.png" alt="WhatsApp Lock Manager - Main Interface" width="400"/>
+  
   <img src="Images/pin.png" alt="PIN Setup" width="400"/>
-  <img src="Images/app_2.png" alt="Lock Status" width="400"/>
 </div>
 
 ## ✨ Features
 
 - 🔐 **Lock WhatsApp Desktop** - Prevent access to WhatsApp Desktop application via file system permissions
 - 🌐 **Lock WhatsApp Web** - Block web.whatsapp.com domains through hosts file modification
-- 🔑 **PIN Protection** - Secure 6-digit PIN system to prevent unauthorized unlocking
+- 🔑 **PIN Protection** - Secure 4-digit PIN system to prevent unauthorized unlocking
 - 👨‍💼 **System-Level Control** - Uses Windows SYSTEM privileges for robust protection
 - 🎨 **Modern UI** - Clean and intuitive WPF interface
 - 📝 **Activity Logging** - Track all lock/unlock operations with timestamps
@@ -32,7 +32,7 @@ A powerful Windows desktop application to control access to WhatsApp Desktop and
 1. Download and run `WhatsAppLockManager_Setup_2.5.0.exe`
 2. Follow the installation wizard
 3. **Read the User Guide** (opens automatically after install)
-4. Launch the app and set your 6-digit PIN
+4. Launch the app and set your 4-digit PIN
 5. Click "Lock App" or "Lock Web" to activate protection
 
 ## 📖 How It Works
@@ -51,7 +51,7 @@ A powerful Windows desktop application to control access to WhatsApp Desktop and
 
 ## 🔓 Unlocking
 
-Enter your 6-digit PIN and click "Unlock App" or "Unlock Web" to restore access. The app uses SYSTEM-level privileges to ensure locks cannot be bypassed without the correct PIN.
+Enter your 4-digit PIN and click "Unlock App" or "Unlock Web" to restore access. The app uses SYSTEM-level privileges to ensure locks cannot be bypassed without the correct PIN.
 
 ## ⚙️ Technical Details
 

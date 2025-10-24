@@ -8,8 +8,8 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 
 <div align="center">
   <img src="Images/app_1.png" alt="WhatsApp Lock Manager - Main Interface" width="400"/>
+  
   <img src="Images/pin.png" alt="PIN Setup" width="400"/>
-  <img src="Images/app_2.png" alt="Lock Status" width="400"/>
 </div>
 
 ## 📦 What's Included
@@ -34,7 +34,7 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 - Clean restore on unlock
 
 ### 🔑 Security Features
-- 6-digit PIN protection
+- 4-digit PIN protection
 - SYSTEM-level privilege elevation via PsExec
 - Hidden support files with read-only permissions
 - Encrypted configuration storage
@@ -91,7 +91,7 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 ## ⚠️ Important Notes
 
 ### First-Time Setup
-- Set a 6-digit PIN on first launch
+- Set a 4-digit PIN on first launch
 - **Do not forget your PIN** - recovery requires manual config file editing
 - Test locking/unlocking to ensure proper operation
 
