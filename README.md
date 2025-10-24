@@ -5,9 +5,9 @@ A powerful Windows desktop application to control access to WhatsApp Desktop and
 ## 📸 App Screenshots
 
 <div align="center">
-  <img src="Images/app_1.png" alt="WhatsApp Lock Manager - Main Interface" width="600"/>
+  <img src="Images/app_1.png" alt="WhatsApp Lock Manager - Main Interface" width="800"/>
   <br/><br/>
-  <img src="Images/pin.png" alt="PIN Setup" width="300"/>
+  <img src="Images/pin.png" alt="PIN Setup" width="400"/>
 </div>
 
 ## ✨ Features
