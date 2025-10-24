@@ -4,13 +4,7 @@
 
 This is the first public release of WhatsApp Lock Manager - a powerful Windows application to control access to WhatsApp Desktop and WhatsApp Web with PIN protection.
 
-## 📸 Screenshots
-
-<div align="center">
-  <img src="Images/app_1.png" alt="WhatsApp Lock Manager - Main Interface" width="400"/>
-  
-  <img src="Images/pin.png" alt="PIN Setup" width="400"/>
-</div>
+> 📸 **See screenshots in the [main README](https://github.com/creativepurus/WhatsAppLockManager#-app-screenshots)**
 
 ## 📦 What's Included
 
