@@ -1,5 +1,7 @@
-﻿# Exclude everything except README and RELEASE_NOTES
+﻿# Exclude everything except README, RELEASE_NOTES, and Images
 *
 !README.md
 !RELEASE_NOTES.md
 !.gitignore
+!Images/
+!Images/*.png
