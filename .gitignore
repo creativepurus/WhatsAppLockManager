@@ -1,0 +1,5 @@
+﻿# Exclude everything except README and RELEASE_NOTES
+*
+!README.md
+!RELEASE_NOTES.md
+!.gitignore
