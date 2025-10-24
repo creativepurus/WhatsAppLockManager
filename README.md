@@ -19,7 +19,7 @@ A powerful Windows desktop application to control access to WhatsApp Desktop and
 - **Requirements:** Windows 10/11 (64-bit)
 - **Administrator privileges required**
 
-## 🚀 Quick Start
+## 🔥 Quick Start
 
 1. Download and run `WhatsAppLockManager_Setup_2.5.0.exe`
 2. Follow the installation wizard
@@ -92,9 +92,9 @@ Enter your 6-digit PIN and click "Unlock App" or "Unlock Web" to restore access.
 ## 📞 Support & Contact
 
 - **Developer:** creativepurus
-- **GitHub:** [github.com/creativepurus](https://github.com/creativepurus)
-- **LinkedIn:** [linkedin.com/in/creativepurus](https://linkedin.com/in/creativepurus)
-- **CodeTime:** [codetime.dev/en/user/17354](https://codetime.dev/en/user/17354)
+- 💻 GitHub: [@creativepurus](https://github.com/creativepurus)
+- 💼 LinkedIn: [@creativepurus](https://linkedin.com/in/creativepurus)
+- ⏱️ CodeTime : [#creativepurus](https://codetime.dev/en/user/17354)
 
 ## 📜 License
 

@@ -130,9 +130,9 @@ If you encounter issues:
 ---
 
 **Developed by creativepurus**
-- GitHub: [github.com/creativepurus](https://github.com/creativepurus)
-- LinkedIn: [linkedin.com/in/creativepurus](https://linkedin.com/in/creativepurus)
-- CodeTime: [codetime.dev/en/user/17354](https://codetime.dev/en/user/17354)
+- 💻 GitHub: [@creativepurus](https://github.com/creativepurus)
+- 💼 LinkedIn: [@creativepurus](https://linkedin.com/in/creativepurus)
+- ⏱️ CodeTime : [#creativepurus](https://codetime.dev/en/user/17354)
 
 ## 📜 License
 
