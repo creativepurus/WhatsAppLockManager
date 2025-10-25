@@ -23,7 +23,7 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 - System-level file permission control
 - Automatic WhatsApp process detection and termination with improved detection and stability
 - Persistent locks that survive reboots
-- Safe ACL backup and restore mechanism
+- Safe ACL backup and restore mechanism !
 
 ### 🌐 WhatsApp Web Blocking
 - Hosts file manipulation to block web.whatsapp.com domains
