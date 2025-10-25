@@ -9,6 +9,21 @@
 
 WhatsApp Lock Manager is a sophisticated Windows application that provides PIN-protected access control for both WhatsApp Desktop and WhatsApp Web. Built with modern .NET technology and featuring a clean WPF interface, it uses system-level privileges to ensure robust protection that persists across reboots.
 
+<p align="center">
+  <a href="https://github.com/creativepurus/WhatsAppLockManager/releases/latest/download/WhatsAppLockManager_Setup_Latest.zip">
+    <img src="https://img.shields.io/badge/⬇%20Download-WhatsAppLockManager_Setup_Latest.zip-7E3ACE?style=for-the-badge" alt="Download Latest ZIP" />
+  </a>
+  <br/>
+  <em>Release title: "WhatsApp Lock Manager Latest" · Always points to the latest asset</em>
+  <br/>
+  <a href="https://github.com/creativepurus/WhatsAppLockManager/releases/latest">View Latest Release Page</a>
+  |
+  <a href="https://github.com/creativepurus/WhatsAppLockManager">Repository</a>
+  |
+  <a href="https://github.com/creativepurus/WhatsAppLockManager.git">Git Clone URL</a>
+  
+</p>
+
 ## 📸 App Screenshots
 
 <div align="center">
@@ -37,9 +52,9 @@ WhatsApp Lock Manager is a sophisticated Windows application that provides PIN-p
 ### Quick Installation
 
 1. **Download the Latest Release**
-   - Visit the [Releases page](https://github.com/creativepurus/WhatsAppLockManager/releases/latest)
-   - Direct Download `WhatsAppLockManager_Setup_2.5.0.exe` from the **Assets** section
-   - Or Download the portable `WhatsAppLockManager_Setup_2.5.0.zip` from **Releases → Assets**
+  - One-click: [Download WhatsAppLockManager_Setup_Latest.zip](https://github.com/creativepurus/WhatsAppLockManager/releases/latest/download/WhatsAppLockManager_Setup_Latest.zip)
+  - Or visit the [Latest Release page](https://github.com/creativepurus/WhatsAppLockManager/releases/latest) titled "WhatsApp Lock Manager Latest"
+  - Optional (versioned): `WhatsAppLockManager_Setup_2.5.0.exe` / `WhatsAppLockManager_Setup_2.5.0.zip` under Releases → Assets
 
 2. **Run the Installer**
    - Right-click the downloaded file and select "Run as Administrator"

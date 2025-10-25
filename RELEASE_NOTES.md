@@ -6,6 +6,16 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 
 > 📸 **See screenshots in the [main README](https://github.com/creativepurus/WhatsAppLockManager#-app-screenshots)**
 
+<p align="center">
+  <a href="https://github.com/creativepurus/WhatsAppLockManager/releases/latest/download/WhatsAppLockManager_Setup_Latest.zip">
+    <img src="https://img.shields.io/badge/⬇%20Download-WhatsAppLockManager_Setup_Latest.zip-7E3ACE?style=for-the-badge" alt="Download Latest ZIP" />
+  </a>
+  <br/>
+  <em>Latest release title: "WhatsApp Lock Manager Latest" · Direct asset link always points to the newest upload</em>
+  <br/>
+  <a href="https://github.com/creativepurus/WhatsAppLockManager/releases/latest">View Latest Release Page</a>
+</p>
+
 ## 📦 What's Included
 
 - **Full installer with .NET 8 runtime** (~52 MB)
@@ -47,7 +57,9 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 
 ## 📥 Installation
 
-1. Download `WhatsAppLockManager_Setup_2.5.0.exe` from assets below
+1. One‑click: [Download WhatsAppLockManager_Setup_Latest.zip](https://github.com/creativepurus/WhatsAppLockManager/releases/latest/download/WhatsAppLockManager_Setup_Latest.zip)
+  - Or visit the [Latest Release page](https://github.com/creativepurus/WhatsAppLockManager/releases/latest) titled "WhatsApp Lock Manager Latest"
+  - Optional (versioned): `WhatsAppLockManager_Setup_2.5.0.exe` / `WhatsAppLockManager_Setup_2.5.0.zip` under Releases → Assets
 2. **Verify file integrity** (recommended - see below)
 3. Run the installer (requires administrator privileges)
 4. Follow the setup wizard
