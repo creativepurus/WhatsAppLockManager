@@ -22,11 +22,15 @@ WhatsApp Lock Manager is a sophisticated Windows application that provides PIN-p
 ## ✨ Features
 
 - 🔐 **Lock WhatsApp Desktop** - Prevent access to WhatsApp Desktop application via file system permissions
+- 🧪 **WhatsApp Beta Support** - Detect and lock the Microsoft Store Beta variant reliably
+- 🎛️ **Advanced Selection** - Choose to lock Standard WhatsApp, WhatsApp Beta, or system-wide WhatsApp Web
+- ⚡ **Improved Detection & Stability** - Faster, more accurate identification of active WhatsApp instances
 - 🌐 **Lock WhatsApp Web** - Block web.whatsapp.com domains through hosts file modification
 - 🔑 **PIN Protection** - Secure 4-digit PIN system to prevent unauthorized unlocking
 - 👨‍💼 **System-Level Control** - Uses Windows SYSTEM privileges for robust protection
 - 🎨 **Modern UI** - Clean and intuitive WPF interface
 - 📝 **Activity Logging** - Track all lock/unlock operations with timestamps
+
 
 ## 💻 Installation Steps
 
@@ -34,7 +38,8 @@ WhatsApp Lock Manager is a sophisticated Windows application that provides PIN-p
 
 1. **Download the Latest Release**
    - Visit the [Releases page](https://github.com/creativepurus/WhatsAppLockManager/releases/latest)
-   - Download `WhatsAppLockManager_Setup_2.5.0.exe` from the **Assets** section
+   - Direct Download `WhatsAppLockManager_Setup_2.5.0.exe` from the **Assets** section
+   - Or Download the portable `WhatsAppLockManager_Setup_2.5.0.zip` from **Releases → Assets**
 
 2. **Run the Installer**
    - Right-click the downloaded file and select "Run as Administrator"
@@ -102,7 +107,9 @@ Compare the output with the hash above. They should match exactly.
 
 ### Locking WhatsApp Desktop
 
-1. Ensure WhatsApp Desktop is closed
+> 🟢 Tip: For the most accurate detection, make sure **WhatsApp Desktop is already running** before you initiate a lock. This helps the app locate the active process and apply the correct lock parameters.
+
+1. Ensure **WhatsApp Desktop is Running**
 2. Click "Lock App" button
 3. Enter your PIN when prompted
 4. The application will:
@@ -135,6 +142,12 @@ Compare the output with the hash above. They should match exactly.
 - Keep the application pinned to taskbar for quick access
 - Review activity logs to monitor all operations
 
+### Advanced Lock Options
+
+- Left Side: type `1` → Lock Standard WhatsApp (Microsoft Store version)
+- Left Side: type `2` → Lock Special WhatsApp Beta version
+- Right Side: lock any version of WhatsApp Web across the entire PC/laptop
+
 ---
 
 ## 📖 How It Works
@@ -145,6 +158,7 @@ Compare the output with the hash above. They should match exactly.
 - Denies current user access while keeping system access intact
 - Automatically detects WhatsApp installation location
 - Closes running WhatsApp processes before locking
+- Identifies whether Standard or Beta WhatsApp is active and applies a targeted lock accordingly
 
 ### Lock WhatsApp Web
 
@@ -152,6 +166,7 @@ Compare the output with the hash above. They should match exactly.
 - Redirects WhatsApp Web domains to `127.0.0.1` (localhost)
 - Closes browser tabs accessing WhatsApp Web domains
 - Supports Chrome, Edge, Firefox, and other browsers
+- Can be enforced system-wide to restrict WhatsApp Web across all browsers
 
 ---
 
@@ -392,3 +407,6 @@ Thank you to all users who trust and use WhatsApp Lock Manager for their privacy
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer"/>
 </p>
+
+---
+
