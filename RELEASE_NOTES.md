@@ -16,8 +16,12 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 ## ✨ Key Features
 
 ### 🔐 WhatsApp Desktop Locking
+- Full support for both **Standard WhatsApp** (Microsoft Store version) and **WhatsApp Beta** version
+- User-selectable locking options:
+  - Type `1` to lock Standard WhatsApp (Microsoft Store version)
+  - Type `2` to lock WhatsApp Beta version
 - System-level file permission control
-- Automatic WhatsApp process detection and termination
+- Automatic WhatsApp process detection and termination with improved detection and stability
 - Persistent locks that survive reboots
 - Safe ACL backup and restore mechanism
 
@@ -26,18 +30,17 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 - Automatic browser tab closure
 - Support for Chrome, Edge, Firefox, and other browsers
 - Clean restore on unlock
+- System-wide WhatsApp Web blocking across all browsers
 
 ### 🔑 Security Features
 - 4-digit PIN protection
- 
- Or download the portable `.zip` from **Releases → Assets**.
 - SYSTEM-level privilege elevation via PsExec
 - Hidden support files with read-only permissions
 - Encrypted configuration storage
 - Activity logging with timestamps
- 
- > 🟢 Before locking any WhatsApp Desktop version, make sure that the **WhatsApp application is already running** on your PC or laptop.  
- > This ensures the detection and lock logic successfully finds the active process and applies correct lock parameters.
+
+> 🟢 **Important:** Before locking any WhatsApp Desktop version, make sure that the **WhatsApp application is already running** on your PC or laptop.  
+> This ensures the detection and lock logic successfully finds the active process and applies correct lock parameters.
 - Real-time status indicators
 - Intuitive button layout
 - Comprehensive error messages
@@ -215,36 +218,3 @@ This software is provided as-is for personal use. See Privacy Statement included
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer"/>
 </p>
-
----
-
-## 🆕 Update — Advanced WhatsApp Lock Control (vNext)
-
-### ✨ What’s New
-- Full support for **WhatsApp Beta version** — previously very difficult to detect and lock.
-- Users can now select exactly what they want to lock:
-  - **Left Side:** Type `1` → Lock Standard WhatsApp (Microsoft Store version)  
-  - **Left Side:** Type `2` → Lock Special **WhatsApp Beta** version  
-  - **Right Side:** Lock **any version of WhatsApp Web** from the entire PC/Laptop.
-- Improved **auto-detection**, **stability**, and **speed** in identifying and locking the correct app instance.
-- Enhanced background logic to ensure accurate system-level protection.
-- Minor UI adjustments for better clarity and usability.
-
----
-
-### ⚠️ Important Step (Must Follow)
-> 🟢 **Before locking any WhatsApp Desktop version**, make sure that the **WhatsApp application is already running** on your PC or laptop.  
-> This ensures that the detection and lock logic successfully locates the active process and applies the correct lock parameters.
-
-If WhatsApp is not running, the lock may not activate properly.
-
----
-
-### 🧠 How It Works
-This version intelligently identifies which WhatsApp variant (Standard or Beta) is active, and applies a targeted lock mechanism.  
-It can also restrict WhatsApp Web across browsers — providing complete desktop-level privacy control.
-
----
-
-### 📦 Download
-The latest `.zip` build is available in the **Releases → Assets** section on GitHub.
