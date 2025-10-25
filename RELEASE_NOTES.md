@@ -44,10 +44,45 @@ This is the first public release of WhatsApp Lock Manager - a powerful Windows a
 ## 📥 Installation
 
 1. Download `WhatsAppLockManager_Setup_2.5.0.exe` from assets below
-2. Run the installer (requires administrator privileges)
-3. Follow the setup wizard
-4. Read the mandatory User Guide and Privacy Statement
-5. Launch the application from Start Menu or Desktop shortcut
+2. **Verify file integrity** (recommended - see below)
+3. Run the installer (requires administrator privileges)
+4. Follow the setup wizard
+5. Read the mandatory User Guide and Privacy Statement
+6. Launch the application from Start Menu or Desktop shortcut
+
+### 🔐 File Integrity Verification
+
+Before installing, verify the downloaded file's authenticity:
+
+**SHA-256 Hash:**
+```
+bd41e2ff10503088bedc5f4db4f748fb77db3795543cd9db7df54033190a9aef
+```
+
+**To verify integrity:**
+
+Open Command Prompt in the download folder and run:
+```cmd
+certutil -hashfile WhatsAppLockManager_Setup_2.5.0.exe SHA256
+```
+
+Compare the output with the hash above. They should match exactly.
+
+### 🧪 VirusTotal Scan
+
+✅ This file has been scanned and verified safe on VirusTotal:
+
+🔗 **[View VirusTotal Scan Report](https://www.virustotal.com/gui/file/bd41e2ff10503088bedc5f4db4f748fb77db3795543cd9db7df54033190a9aef/detection)**
+
+> **Note:** Some antivirus software may flag PsExec.exe (a legitimate Microsoft Sysinternals tool included in the package). This is a known false positive.
+
+### 📦 Download from Release Assets
+
+You can safely download the packaged installer file from the **Release Assets** section below. The file includes:
+- Complete application with .NET 8 runtime
+- All required dependencies (PSTools)
+- User documentation
+- Installation wizard
 
 ## ⚙️ Technical Specifications
 
