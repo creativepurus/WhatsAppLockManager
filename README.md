@@ -39,7 +39,7 @@ WhatsApp Lock Manager is a sophisticated Windows application that provides PIN-p
 1. **Download the Latest Release**
    - Visit the [Releases page](https://github.com/creativepurus/WhatsAppLockManager/releases/latest)
    - Download `WhatsAppLockManager_Setup_2.5.0.exe` from the **Assets** section
-   - Or Download the portable `.zip` from **Releases → Assets**
+   - Or Download the portable `WhatsAppLockManager_Setup_2.5.0.zip` from **Releases → Assets**
 
 2. **Run the Installer**
    - Right-click the downloaded file and select "Run as Administrator"
