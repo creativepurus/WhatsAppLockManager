@@ -87,6 +87,14 @@ Compare the output with the hash above. They should match exactly.
 
 ---
 
+## 🧹 Repository housekeeping
+
+- This repository follows a single-branch workflow.
+- Only the "main" branch is kept; short-lived feature branches are deleted after merge to keep history clean and simple.
+- If you fork this repo, please open pull requests targeting the "main" branch.
+
+---
+
 ---
 
 ## 🪟 How to Use
