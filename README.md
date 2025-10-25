@@ -14,6 +14,8 @@ WhatsApp Lock Manager is a sophisticated Windows application that provides PIN-p
 <div align="center">
   <img src="Images/app_1.png" alt="WhatsApp Lock Manager - Main Interface" width="800"/>
   <br/><br/>
+  <img src="Images/app_2.png" alt="WhatsApp Lock Manager - Lock Status" width="800"/>
+  <br/><br/>
   <img src="Images/pin.png" alt="PIN Setup" width="400"/>
 </div>
 
