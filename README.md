@@ -135,22 +135,7 @@ Compare the output with the hash above. They should match exactly.
 
 ---
 
----
-
 ## 📖 How It Works
-### Lock WhatsApp Desktop App
-### Lock WhatsApp Desktop App
-
-- Modifies Windows file permissions (ACLs) on WhatsApp installation folder
-### Lock WhatsApp Desktop App
-
-- Modifies Windows file permissions (ACLs) on WhatsApp installation folder
-- Denies current user access while keeping system access intact
-### Lock WhatsApp Desktop App
-
-- Modifies Windows file permissions (ACLs) on WhatsApp installation folder
-- Denies current user access while keeping system access intact
-- Automatically detects WhatsApp installation location
 
 ### Lock WhatsApp Desktop App
 
@@ -158,19 +143,6 @@ Compare the output with the hash above. They should match exactly.
 - Denies current user access while keeping system access intact
 - Automatically detects WhatsApp installation location
 - Closes running WhatsApp processes before locking
-### Lock WhatsApp Web
-### Lock WhatsApp Web
-
-- Adds blocking entries to Windows hosts file (`C:\Windows\System32\drivers\etc\hosts`)
-### Lock WhatsApp Web
-
-- Adds blocking entries to Windows hosts file (`C:\Windows\System32\drivers\etc\hosts`)
-- Redirects WhatsApp Web domains to `127.0.0.1` (localhost)
-### Lock WhatsApp Web
-
-- Adds blocking entries to Windows hosts file (`C:\Windows\System32\drivers\etc\hosts`)
-- Redirects WhatsApp Web domains to `127.0.0.1` (localhost)
-- Closes browser tabs accessing WhatsApp Web domains
 
 ### Lock WhatsApp Web
 
@@ -287,30 +259,6 @@ Compare the output with the hash above. They should match exactly.
 
 ---
 
----
-
-## ⚠️ Important Notes
----
-
-## ⚠️ Important Notes
-
-- This tool requires **administrator privileges** to function
----
-
-## ⚠️ Important Notes
-
-- This tool requires **administrator privileges** to function
-- Do not forget your PIN - recovery requires manual file editing
----
-
-## ⚠️ Important Notes
-
-- This tool requires **administrator privileges** to function
-- Do not forget your PIN - recovery requires manual file editing
-- Locked state persists across reboots
-
----
-
 ## ⚠️ Important Notes
 
 - This tool requires **administrator privileges** to function
@@ -320,50 +268,17 @@ Compare the output with the hash above. They should match exactly.
 
 ---
 
----
-
-## 🐛 Troubleshooting
----
-
-## 🐛 Troubleshooting
-
-**App won't lock WhatsApp Desktop:**
----
-
-## 🐛 Troubleshooting
-
-**App won't lock WhatsApp Desktop:**
-- Ensure WhatsApp Desktop is installed in default location
----
-
-## 🐛 Troubleshooting
-
-**App won't lock WhatsApp Desktop:**
-- Ensure WhatsApp Desktop is installed in default location
-- Close WhatsApp completely before locking
-
----
-
 ## 🐛 Troubleshooting
 
 **App won't lock WhatsApp Desktop:**
 - Ensure WhatsApp Desktop is installed in default location
 - Close WhatsApp completely before locking
 - Run app as Administrator
-**Web lock not working:**
-**Web lock not working:**
-- Check if browser has cached entries (clear browser cache)
-**Web lock not working:**
-- Check if browser has cached entries (clear browser cache)
-- Some browsers may require restart after locking
 
 **Web lock not working:**
 - Check if browser has cached entries (clear browser cache)
 - Some browsers may require restart after locking
 - Verify hosts file permissions haven't been modified
-**Forgot PIN:**
-**Forgot PIN:**
-- Edit `%LOCALAPPDATA%\WhatsAppLockManager\config.json`
 
 **Forgot PIN:**
 - Edit `%LOCALAPPDATA%\WhatsAppLockManager\config.json`
